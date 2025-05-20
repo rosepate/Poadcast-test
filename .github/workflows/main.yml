@@ -8,5 +8,5 @@ jobs:
       - name: chekout repo
         uses: actions/checkout@v3
       - name: Run Feed Generator 
-        uses: rosepate/poadcast-generator@main
+        uses: rosepate/Poadcast-Generator@main
         
