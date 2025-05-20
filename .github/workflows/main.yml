@@ -5,9 +5,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: chekout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
       - name: Run Feed Generator 
         uses: rosepate/poadcast-generator@main
         
